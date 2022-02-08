@@ -1,0 +1,3 @@
+/home/rehman/CLionProjects/cqlite/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/home/rehman/CLionProjects/cqlite/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/rehman/CLionProjects/cqlite/cmake-build-debug/CMakeFiles/cstack.dir
