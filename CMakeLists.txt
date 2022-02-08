@@ -1,6 +1,6 @@
 cmake_minimum_required(VERSION 3.21)
-project(cstack)
+project(cqlite C)
 
-set(CMAKE_CXX_STANDARD 14)
+set(CMAKE_C_STANDARD 11)
 
-add_executable(cstack main.cpp)
+add_executable(cqlite src/cqlite.c src/REPL/InputBuffer.h src/REPL/InputBuffer.c src/REPL/repl.c src/REPL/repl.h)
