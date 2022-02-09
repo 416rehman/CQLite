@@ -9,6 +9,5 @@
 
 void print_prompt();
 void read_input(InputBuffer *input_buffer);
-void close_input(InputBuffer* inputBuffer);
 
 #endif //CQLITE_REPL_H

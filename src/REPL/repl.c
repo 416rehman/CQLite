@@ -29,12 +29,3 @@ void read_input(InputBuffer* input_buffer) {
     input_buffer->input_length = bytesRead - 1;
     input_buffer->buffer[bytesRead - 1] = 0;
 }
-
-/**
- * Deallocates memory for the buffer.
- * @param inputBuffer
- */
-void close_input(InputBuffer *inputBuffer) {
-    free(inputBuffer->buffer);
-    free(inputBuffer);
-}
