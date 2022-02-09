@@ -1,6 +1,5 @@
 //
 // Created by rehman on 2/8/22.
-//
 
 #ifndef CQLITE_INPUTBUFFER_H
 #define CQLITE_INPUTBUFFER_H
@@ -14,5 +13,6 @@ typedef struct InputBuffer {
 } InputBuffer;
 
 InputBuffer* new_input_buffer();
-
+void strip_prefix(InputBuffer* input_buffer, char prefix);
+void close_buffer(InputBuffer* inputBuffer);
 #endif //CQLITE_INPUTBUFFER_H
